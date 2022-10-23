@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css" type="text/css" />
+    <title>Boots | FutBoots</title>
+    <style>
+     
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="boots.html">Boots</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside><img src="images/futbol.png" alt="FutBoots" /></aside>
+        <article>
+            <h1>Boots</h1>
+            <section class="columns-desktop">
+            <div class="boots">
+            <img src="images/nikeboots.jpg" width="100" height="100" alt="Nike Tempos - Blackout" />
+            <div class="columns" >
+            <div class="title">Nike Tempos - Blackout</div>
+            <div class="price">€99.99</div>
+            </div>
+            <button data-order="Nike Tempos - Blackout">Order</button>
+            </div>
+            <div class="boots">
+                <img src="images/nikeboots2.webp" width="100" height="100" alt="Nike Tempos - Blue&Black">
+                <div class="columns">
+                    <div class="title">Nike Tempos - Blue&Black</div>
+                    <div class="price">€84.99</div>
+                </div>
+                <button data-order="Nike Tempos - Blue&Black">Order</button>
+            </div>
+        </section>
+    </article>
+   </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="boots.html">Boots</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<script>
+    window.addEventListener("DOMContentLoaded", function (e) {
+        const orderButtons = document.querySelectorAll("button[data-order]");
+
+        orderButtons.forEach(function(button) {
+            
+            button.addEventListener("click", function(e) {
+                const button = e.currentTarget;
+                const container = button.parentNode;
+
+                const order =  {
+                    id: button.getAttribute("data-order"),
+                    title: container.querySelector(".title").innerText,
+                    price: container.querySelector(".price").innerText
+                };
+
+                localStorage.setItem("order", JSON.stringify(order));
+                const url = window.location.href.replace("boots.html", "order.html");
+                window.location.href = url;
+            });
+
+        });
+    });
+</script>
+</html>
