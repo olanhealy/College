@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/2ndYear.iml" filepath="$PROJECT_DIR$/2ndYear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab1-CS4013/Lab1-CS4013.iml" filepath="$PROJECT_DIR$/Lab1-CS4013/Lab1-CS4013.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab2-CS4013/Lab2-CS4013.iml" filepath="$PROJECT_DIR$/Lab2-CS4013/Lab2-CS4013.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab4-CS44013/Lab4-CS44013.iml" filepath="$PROJECT_DIR$/Lab4-CS44013/Lab4-CS44013.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab5/Lab5.iml" filepath="$PROJECT_DIR$/Lab5/Lab5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RevisionAssingment_CS4013/RevisionAssingment_CS4013.iml" filepath="$PROJECT_DIR$/RevisionAssingment_CS4013/RevisionAssingment_CS4013.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab6-CS4013/lab6-CS4013.iml" filepath="$PROJECT_DIR$/lab6-CS4013/lab6-CS4013.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/untitled1/untitled1.iml" />
+    </modules>
+  </component>
+</project>
