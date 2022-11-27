@@ -1,0 +1,25 @@
+1. x will = 9
+   y will equal 16 
+   z will equal 25
+
+2.(a) false as if i is 11, 14 will not be . 20 etc.
+  (b) true as the minimum value in the pre condition is 11 which means the minimum i value in post condition is 14 which is always > 10
+  (c) false as b if a<b, b will always = b
+
+
+3. (a)I i > 20
+   (b) i > 7
+   (c) i < 20
+   (d) i < 30
+   (e) i >= 7
+   (f) i >= 13
+
+
+4. (a) i > 18
+   (b) i < 18
+   (c) i >= -1
+   (d) i <= -2
+
+
+
+5. 1st 2nd last

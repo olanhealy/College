@@ -1,0 +1,64 @@
+1. char: stores a variable as a character 
+  char [] : stores lots of chars in one
+  random ; is an object
+  String: stores a sentence as variable 
+  
+
+
+2. - x = y   - myArray3= myArray2 
+   - myArray2 = myArray3  - r3 = r1, r2 = r1
+   
+
+
+
+
+
+
+
+
+3. when myarray2 is equal to myarray3
+
+
+
+
+
+
+
+
+
+
+
+
+4. Heap:
+Strings, created changed etc.
+Arrays, created, changed
+Objects, created changed
+
+Stack:
+Primitive types, created, changed etc.
+All others, refrence to stack, created, changed etc.
+
+
+
+
+
+5. a
+a b
+b b
+[a, b, c, d, e]
+[f, g, h, i, j]
+[a, b, c, d, e]
+[a, b, c, d, e]
+[a, b, c, d, e]
+[a, b, c, d, e]
+abc xyz abc
+ff f
+abc abc abc
+tf f
+abc abc abc
+tf f
+abc abc xyz
+tf f
+
+
+
